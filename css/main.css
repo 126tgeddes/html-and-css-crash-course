@@ -23,10 +23,13 @@ ul{
     border-style: solid;
     border-color: crimson;
     /* border: 4px solid crimson; */
-    border-bottom: 4px solid crimson;
-    border-left: 8x dashed crimson;
+    border-bottom: 4px dotted solid crimson;
+    border-left: 8px dashed rgb(0, 206, 110);
 }
 
 li{
     list-style-type: none;
+    /*text-shadow: 2px 2px lightgray; */
+    text-shadow: 2px 2px #E9E9E9;
+    
 }
