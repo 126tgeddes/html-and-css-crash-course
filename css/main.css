@@ -1,3 +1,4 @@
+/*
 h1{
     color: orange;
     background-color: slategray;
@@ -22,14 +23,27 @@ ul{
     border-width: 4px;
     border-style: solid;
     border-color: crimson;
-    /* border: 4px solid crimson; */
+    /* border: 4px solid crimson; 
     border-bottom: 4px dotted solid crimson;
     border-left: 8px dashed rgb(0, 206, 110);
 }
 
 li{
     list-style-type: none;
-    /*text-shadow: 2px 2px lightgray; */
+    /*text-shadow: 2px 2px lightgray; 
     text-shadow: 2px 2px #E9E9E9;
-    
+
+}
+*/
+span {
+    display: inline-block; 
+    margin: 20px;
+    padding: 20px;
+}
+
+div {
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
 }
